@@ -39,7 +39,7 @@ function App() {
   <TodoProvider value={{todos,addTodo,updateTodo,deleteTodo,toggleComplete}}>
     <div className="bg-gradient-to-br from-[#1e293b] to-[#0f172a] min-h-screen py-10 px-4">
         <div className="w-full max-w-2xl mx-auto bg-white/10 backdrop-blur-md shadow-xl rounded-xl px-6 py-6 text-white">
-            <h1 className="text-4xl font-bold text-center mb-10 tracking-wide">📝 Your Todo List</h1>
+            <h1 className="text-4xl font-bold text-center mb-10 tracking-wide">📝 Your To-do List</h1>
             <div className="mb-6">
                 <TodoForm/>
             </div>
